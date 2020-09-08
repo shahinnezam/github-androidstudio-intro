@@ -67,4 +67,4 @@
 1. Fork and Clone this GitHub repository
 3. Use both the terminal and Android Studio to work with Git
 4. Push your changes to GitHub
-5. Create a Pull Request to submit your work
+5. Submit the URL for your updated repo in Canvas

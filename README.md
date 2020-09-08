@@ -17,7 +17,7 @@
      * It works locally, on your own computer, and offline
      * It makes having multiple branches, parallel worlds of code, easier
 
-     ![git workflow steps](./images/GitWorkFlowDynamic.gif)
+     ![git workflow steps](./GitWorkFlow.gif)
 
 2. Git Gotchas
 
@@ -41,10 +41,6 @@
    * `git add  .` - stage the files to commit and tell get what files to track, "." selects all the new files or files with changes
    * `git commit README.md -m "New readme file"` - add the changes to the repo with the named file, "-m" indicates message included
 
-   *Remember*
-
-   ![git workflow](./images/GitWorkFlow.gif)
-
 
 ## Demo: Git using Android Studio's VCS menu
 
@@ -64,4 +60,11 @@
 
    * Open the "Terminal" tab "*View > Tool Windows > Terminal*"
    * Check out the changes with `git log`
-   * See the differnce between `git log` and `git log --oneline`
+   * See the difference between `git log` and `git log --oneline`
+
+## Work with Remote GitHub repositories
+### use the Canvas document to complete the exercise with a partner
+1. Fork and Clone this GitHub repository
+3. Use both the terminal and Android Studio to work with Git
+4. Push your changes to GitHub
+5. Create a Pull Request to submit your work

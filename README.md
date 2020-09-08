@@ -52,11 +52,11 @@
 
 4. Follow the git workflow using "*VCS>Commit*". We need to complete staging for the changes
 
-   * select the file from the list
+   * select the file from the list (this takes care of the staging process - the `git add` step)
    * Type a commit message in the box, like "Adds myFile
    * click "Commit"
 
-5. After stagging is Committing changes
+5. Review the effect using the Terminal
 
    * Open the "Terminal" tab "*View > Tool Windows > Terminal*"
    * Check out the changes with `git log`

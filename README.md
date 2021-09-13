@@ -28,7 +28,7 @@
 
 ## Git Demo Using Git Bash/ Android Studio Terminal
 
-1. Creating new repo and initial commit. The flow for using git starts with creating a directory (folder). The cycle as changes are made is `add` and `commit`. Small chunks as you go.
+1. Creating new repo and initial commit. The flow for using git starts with creating a directory (folder). The cycle as changes are made is `add` and `commit`. Record your changes in small chunks as you go.
 
    * Configure your git
      * `git config --global user.email "youremail"`
@@ -44,17 +44,17 @@
 
 ## Demo: Git using Android Studio's VCS menu
 
-1. Create a new "Empty" project in Android Studio and use the built-in git support (*VCS menu*). It doesn't have all the commands of Git Bash but is convenient when working in Android Studio.
+1. Create a new "Empty Activity" project in Android Studio and use the built-in git support (*VCS menu*). It doesn't have all the commands of Git Bash or the command line but is convenient when working in Android Studio.
 
-2. Use "*VCS > Enable Version Control Integration*" to initialize a repository using "Git"
+2. Add a TEXT file called "myFile" (File/New/File)
 
-3. Add a TEXT file called "myFile" (File/New/File)
+3. Use "*VCS > Enable Version Control Integration*" to initialize a repository - choose "Git" as your VCS
 
-4. Follow the git workflow using "*VCS>Commit*". We need to complete staging for the changes
+4. Follow the git workflow 
 
-   * select the file from the list (this takes care of the staging process - the `git add` step)
-   * Type a commit message in the box, like "Adds myFile
-   * click "Commit"
+   * View the repository status: using "*Git>Commit*" from the menu
+   * Stage the files to commit: select the "myFile" doc from the list (find it in the *Unversioned Files* list)
+   * Commit the changes with a comment: Type a commit message in the box, like "tests commit process in Android Studio" and click "Commit"
 
 5. Review the effect using the Terminal
 

@@ -52,9 +52,9 @@
 
 4. Follow the git workflow 
 
-   * View the repository status: using "*Git>Commit*" from the menu
-   * Stage the files to commit: select the "myFile" doc from the list (find it in the *Unversioned Files* list)
-   * Commit the changes with a comment: Type a commit message in the box, like "tests commit process in Android Studio" and click "Commit"
+   * **View the repository status**: using "*Git>Commit*" from the menu
+   * **Stage the files to commit**: select the "myFile" doc from the list (find it in the *Unversioned Files* list)
+   * **Commit the changes with a comment**: Type a commit message in the box, like "tests commit process in Android Studio" and click "Commit"
 
 5. Review the effect using the Terminal
 
